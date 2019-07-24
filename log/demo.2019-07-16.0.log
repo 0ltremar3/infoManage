@@ -1,0 +1,85 @@
+2019-07-16 09:06:25,560 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on LAPTOP-S6D27TEO with PID 6368 (C:\Users\123\Desktop\company\target\classes started by 123 in C:\Users\123\Desktop\company)
+2019-07-16 09:06:25,569 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 09:06:25,571 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 09:06:32,350 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 9.114 seconds (JVM running for 15.058)
+2019-07-16 15:01:34,399 INFO (StartupInfoLogger.java:50)- Starting NewsMapperTest on AMB0E378IIS4OL4 with PID 3128 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 15:01:34,401 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 15:01:34,402 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 15:01:40,518 INFO (StartupInfoLogger.java:59)- Started NewsMapperTest in 7.129 seconds (JVM running for 11.066)
+2019-07-16 15:09:15,441 INFO (StartupInfoLogger.java:50)- Starting NewsMapperTest on AMB0E378IIS4OL4 with PID 11032 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 15:09:15,441 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 15:09:15,441 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 15:09:21,175 INFO (StartupInfoLogger.java:59)- Started NewsMapperTest in 6.811 seconds (JVM running for 8.902)
+2019-07-16 15:09:22,090 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM news 
+2019-07-16 15:09:22,150 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 15:09:22,223 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 11
+2019-07-16 15:13:49,463 INFO (StartupInfoLogger.java:50)- Starting NewsMapperTest on AMB0E378IIS4OL4 with PID 1988 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 15:13:49,463 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 15:13:49,463 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 15:13:54,557 INFO (StartupInfoLogger.java:59)- Started NewsMapperTest in 5.998 seconds (JVM running for 7.721)
+2019-07-16 15:13:55,402 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM news 
+2019-07-16 15:13:55,685 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 15:13:55,765 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 11
+2019-07-16 15:15:17,663 INFO (StartupInfoLogger.java:50)- Starting NewsMapperTest on AMB0E378IIS4OL4 with PID 6376 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 15:15:17,665 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 15:15:17,693 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 15:15:22,812 INFO (StartupInfoLogger.java:59)- Started NewsMapperTest in 6.155 seconds (JVM running for 8.384)
+2019-07-16 15:15:23,527 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM news 
+2019-07-16 15:15:23,579 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 15:15:23,638 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 11
+2019-07-16 15:16:18,146 INFO (StartupInfoLogger.java:50)- Starting NewsMapperTest on AMB0E378IIS4OL4 with PID 9756 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 15:16:18,146 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 15:16:18,146 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 15:16:23,214 INFO (StartupInfoLogger.java:59)- Started NewsMapperTest in 5.946 seconds (JVM running for 7.553)
+2019-07-16 15:16:23,920 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM news 
+2019-07-16 15:16:24,001 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 15:16:24,071 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 11
+2019-07-16 21:57:04,645 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 6980 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 21:57:04,645 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 21:57:04,645 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 21:57:09,488 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 5.952 seconds (JVM running for 8.956)
+2019-07-16 21:57:10,473 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-16 21:57:10,535 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 21:57:10,613 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-07-16 22:00:28,841 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 1852 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 22:00:28,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 22:00:28,841 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 22:00:33,778 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 6.203 seconds (JVM running for 8.241)
+2019-07-16 22:00:34,575 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-16 22:00:34,622 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 22:00:34,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-07-16 22:01:48,760 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 11520 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 22:01:48,760 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 22:01:48,760 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 22:01:53,806 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 5.984 seconds (JVM running for 7.702)
+2019-07-16 22:01:54,494 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-16 22:01:54,541 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 22:01:54,603 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-07-16 22:03:31,857 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 10540 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 22:03:31,857 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 22:03:31,857 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 22:03:37,403 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 6.625 seconds (JVM running for 8.423)
+2019-07-16 22:03:38,138 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-16 22:03:38,185 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-16 22:03:38,263 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-07-16 22:43:45,628 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 10988 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 22:43:45,628 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 22:43:45,628 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 22:43:49,947 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 5.453 seconds (JVM running for 7.368)
+2019-07-16 22:43:50,659 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO message VALUE(0,? ,? ,? ,? ,?) 
+2019-07-16 22:43:50,711 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: why(String), I dont know(String), oltremare(String), 2019-07-16 22:43:50.279(Timestamp), 4(Integer)
+2019-07-16 22:43:50,711 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-16 22:52:04,865 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 2496 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 22:52:04,867 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 22:52:04,867 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 22:52:09,930 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 5.988 seconds (JVM running for 7.753)
+2019-07-16 22:52:10,572 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: DELETE FROM message WHERE messageId = ? ; 
+2019-07-16 22:52:10,614 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer)
+2019-07-16 22:52:10,622 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-16 23:12:19,787 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 8552 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-16 23:12:19,787 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-16 23:12:19,787 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-16 23:12:24,940 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 6.058 seconds (JVM running for 7.765)
+2019-07-16 23:12:25,604 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE message SET title = ? WHERE messageId = ? ; 
+2019-07-16 23:12:25,664 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: goodbye(String), 5(Integer)
+2019-07-16 23:12:25,664 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

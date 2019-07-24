@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zryx.company.mapper.UsersMapper">
+    <select id="getAllUsers" resultType="com.zryx.company.model.Users">
+        SELECT * FROM users;
+    </select>
+    <select id="findUser" resultType="com.zryx.company.model.Users">
+      SELECT * FROM users WHERE userName = #{userName} AND PASSWORD = #{password} ;
+    </select>
+    <insert id="userRegister" parameterType="com.zryx.company.model.Users">
+      INSERT INTO users VALUE(0,#{userName} ,#{password} ,0);
+    </insert>
+    <delete id="delUser">
+      DELETE FROM users WHERE userId = #{userId} ;
+    </delete>
+    <update id="updUser" parameterType="com.zryx.company.model.Users">
+      UPDATE users SET userName = #{userName} ,PASSWORD = #{password} WHERE userId = #{userId} ;
+    </update>
+    <select id="isAdmin" resultType="com.zryx.company.model.Users">
+      SELECT * FROM users WHERE userName = #{userName} AND PASSWORD = #{password} AND  status = 1;
+    </select>
+
+</mapper>

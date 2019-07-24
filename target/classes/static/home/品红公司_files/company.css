@@ -1,0 +1,118 @@
+#main {
+    width: 799px;
+    margin: auto
+}
+
+#top {
+    padding-left:0px;
+}
+
+#left {
+    float: left;
+    width: 615px;
+}
+
+#listLeft {
+    float:left;
+    width:208px;
+    margin-left:-3px;
+}
+
+#productList {
+    float:left;
+    width:570px;
+    margin-left:20px;
+    margin-top:-10px;
+}
+
+.tblProductList {
+    margin-left:20px;
+
+}
+
+#navigate {
+    margin-left:10px;
+    color:#888;
+    font-size:13px;
+}
+
+#right {
+    float: left;
+    width: 184px;
+    height: 500px;
+}
+
+#middle {
+    width: 799px;
+}
+
+#bottom {
+    width: 799px;
+    height: 30px;
+    background-image: url("image/d_r11_15.jpg");
+}
+
+#news {
+    float: left;
+    width: 345px;
+}
+
+#pic {
+    float: left;
+    width: 258px;
+    margin-left: 3px;
+}
+
+.newsDate {
+    color: #ff0000;
+}
+
+a.dong06:link {
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+    font-family: "新宋体";
+    font-size: 13px;
+    font-weight: normal;
+}
+
+a.dong06:visited {
+    COLOR: #000000;
+    TEXT-DECORATION: none;
+    font-family: "新宋体";
+    font-size: 13px;
+}
+
+a.dong06:hover {
+    COLOR: #FF0000;
+    TEXT-DECORATION: underline;
+    font-family: "新宋体";
+    font-size: 13px;
+}
+
+a.dong06:active {
+    color: #FF0000;
+    text-decoration: none;
+    font-family: "新宋体";
+    font-size: 13px;
+}
+
+ul {
+    background-color: #C1282A;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 25px;
+    width: 110px;
+    color: #fff;
+    font-weight: bold;
+    border-right: 0.08em solid #7B6869;
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.phone{
+    border-bottom:1px dashed #ccc
+}

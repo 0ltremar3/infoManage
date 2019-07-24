@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zryx.company.mapper.MessageMapper">
+    <select id="getAllMessage" resultType="com.zryx.company.model.Message">
+        SELECT * FROM message;
+        UPDATE message SET message.`count` = (SELECT COUNT(*)
+        FROM revert WHERE message.`messageId` = revert.`messageId`);
+    </select>
+    <insert id="addMessage" parameterType="com.zryx.company.model.Message">
+        INSERT INTO message VALUE(0,#{title} ,#{content} ,#{writer} ,#{writeDate} ,0)
+    </insert>
+    <delete id="delMessage">
+        DELETE FROM message WHERE messageId = #{messageId} ;
+    </delete>
+    <update id="updateMessage" parameterType="com.zryx.company.model.Message">
+        UPDATE message SET title = #{title} ,content = #{content} ,
+        writer = #{writer} ,writeDate = #{writeDate} ,COUNT = #{count} WHERE messageId = #{messageId} ;
+    </update>
+    <select id="getMessageById" resultType="com.zryx.company.model.Message">
+        SELECT * FROM message WHERE messageId = #{messageId} ;
+    </select>
+    <select id="getMessageByPage" resultType="com.zryx.company.model.Message">
+        SELECT * FROM message limit #{pageStart} ,#{pageSize} ;
+    </select>
+    <select id="MessageCount" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM message
+    </select>
+</mapper>

@@ -1,0 +1,712 @@
+2019-07-17 11:10:54,090 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 11576 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 11:10:54,092 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 11:10:54,102 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 11:11:00,742 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 7.786 seconds (JVM running for 10.28)
+2019-07-17 11:11:01,760 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 11:11:01,814 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 11:11:01,887 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 21:57:44,621 INFO (StartupInfoLogger.java:50)- Starting MessageMapperTest on AMB0E378IIS4OL4 with PID 1744 (started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 21:57:44,621 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 21:57:44,636 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 21:57:49,667 INFO (StartupInfoLogger.java:59)- Started MessageMapperTest in 6.515 seconds (JVM running for 8.932)
+2019-07-17 21:57:50,527 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 21:57:50,589 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 21:57:50,636 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 21:59:48,248 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 5436 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 21:59:48,248 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 21:59:48,248 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 21:59:51,982 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.562 seconds (JVM running for 6.872)
+2019-07-17 22:04:19,743 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 5092 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:04:19,743 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:04:19,759 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:04:23,375 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.382 seconds (JVM running for 5.757)
+2019-07-17 22:06:14,266 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 2092 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:06:14,281 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:06:14,281 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:06:17,500 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.078 seconds (JVM running for 5.553)
+2019-07-17 22:19:10,013 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 4460 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:19:10,015 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:19:10,015 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:19:13,744 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.338 seconds (JVM running for 5.713)
+2019-07-17 22:19:22,737 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:19:22,782 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:19:22,826 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:19:22,944 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:20:06,223 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 13116 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:20:06,227 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:20:06,228 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:20:10,231 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.786 seconds (JVM running for 6.461)
+2019-07-17 22:20:14,949 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:20:14,986 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:20:15,025 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:20:15,145 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:20:18,947 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:20:18,949 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:20:18,952 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:20:18,954 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:31:22,480 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:31:22,490 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:31:22,490 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:31:25,871 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.177 seconds (JVM running for 5.612)
+2019-07-17 22:31:40,854 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:31:40,897 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:31:40,934 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:31:41,041 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:33:05,015 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:33:05,018 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:33:05,047 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:33:05,052 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:33:06,964 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:33:06,965 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:33:06,966 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:33:08,381 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.456 seconds (JVM running for 108.122)
+2019-07-17 22:33:10,036 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:33:10,049 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:33:10,053 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:33:10,067 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:34:04,139 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:34:04,139 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:34:04,140 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:34:05,318 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.226 seconds (JVM running for 165.051)
+2019-07-17 22:35:13,424 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:35:13,424 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:35:13,425 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:35:14,512 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.132 seconds (JVM running for 234.242)
+2019-07-17 22:36:21,073 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:36:21,074 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:36:21,075 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:36:22,205 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.185 seconds (JVM running for 301.939)
+2019-07-17 22:37:24,487 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:37:24,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:37:24,488 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:37:25,475 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.032 seconds (JVM running for 365.213)
+2019-07-17 22:40:30,835 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:40:30,847 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:40:30,851 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:40:30,866 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:41:55,435 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 22:41:55,436 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 22:41:55,438 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 22:41:55,439 DEBUG (MessageController.java:28)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 22:47:11,866 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 22:47:11,866 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 22:47:11,866 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 22:47:12,938 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.15 seconds (JVM running for 952.687)
+2019-07-17 23:02:32,555 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:02:32,555 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:02:32,555 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:02:33,664 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.156 seconds (JVM running for 1873.405)
+2019-07-17 23:06:23,096 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:06:23,096 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:06:23,097 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:06:24,019 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 0.963 seconds (JVM running for 2103.752)
+2019-07-17 23:10:42,169 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:10:42,169 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:10:42,169 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:10:44,009 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.871 seconds (JVM running for 2363.746)
+2019-07-17 23:11:48,494 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:11:48,494 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:11:48,494 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:11:49,606 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.142 seconds (JVM running for 2429.341)
+2019-07-17 23:12:35,828 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:12:35,828 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:12:35,828 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:12:37,005 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.293 seconds (JVM running for 2476.745)
+2019-07-17 23:13:01,852 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:13:01,852 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:13:01,852 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:13:02,842 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.021 seconds (JVM running for 2502.577)
+2019-07-17 23:23:28,675 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10468 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:23:28,675 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:23:28,675 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:23:29,678 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 1.041 seconds (JVM running for 3129.411)
+2019-07-17 23:36:15,940 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:36:15,943 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:36:15,946 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 23:36:15,960 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 23:36:48,607 ERROR (BaseController.java:285)- 系统异常:org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'message' on field 'messageId': rejected value []; codes [typeMismatch.message.messageId,typeMismatch.messageId,typeMismatch.int,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [message.messageId,messageId]; arguments []; default message [messageId]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'int' for property 'messageId'; nested exception is java.lang.NumberFormatException: For input string: ""]
+org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'message' on field 'messageId': rejected value []; codes [typeMismatch.message.messageId,typeMismatch.messageId,typeMismatch.int,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [message.messageId,messageId]; arguments []; default message [messageId]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'int' for property 'messageId'; nested exception is java.lang.NumberFormatException: For input string: ""]
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:164)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-17 23:36:53,658 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:36:53,659 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:36:53,661 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 23:36:53,663 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 23:39:37,177 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:39:37,178 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:39:37,180 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2019-07-17 23:39:37,182 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 23:40:07,518 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO message VALUE(0,? ,? ,? ,? ,?) 
+2019-07-17 23:40:07,523 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 点赞(String), 11111(String), jry(String), 2019-07-17 00:00:00.0(Timestamp), 3(Integer)
+2019-07-17 23:40:07,531 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-17 23:40:42,715 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:40:42,715 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:40:42,717 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2019-07-17 23:40:42,719 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 6,
+    "title" : "点赞",
+    "content" : "11111",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 3
+  } ]
+}
+2019-07-17 23:41:30,132 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO message VALUE(0,? ,? ,? ,? ,?) 
+2019-07-17 23:41:30,133 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 雷猴(String), 
+                878888888888888(String), 11(String), 2019-07-17 00:00:00.0(Timestamp), 2(Integer)
+2019-07-17 23:41:30,135 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-17 23:41:34,504 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:41:34,505 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:41:34,510 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-17 23:41:34,515 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 6,
+    "title" : "点赞",
+    "content" : "11111",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 3
+  }, {
+    "messageId" : 7,
+    "title" : "雷猴",
+    "content" : "\r\n                878888888888888",
+    "writer" : "11",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 23:49:33,221 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 12656 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-17 23:49:33,221 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-17 23:49:33,221 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-17 23:49:38,463 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 6.08 seconds (JVM running for 7.713)
+2019-07-17 23:49:39,264 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:49:39,305 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:49:39,347 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-17 23:49:39,471 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 6,
+    "title" : "点赞",
+    "content" : "11111",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 3
+  }, {
+    "messageId" : 7,
+    "title" : "雷猴",
+    "content" : "\r\n                878888888888888",
+    "writer" : "11",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  } ]
+}
+2019-07-17 23:50:23,225 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO message VALUE(0,? ,? ,? ,? ,?) 
+2019-07-17 23:50:23,225 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 啊哦(String), 哈喽哈喽嘿
+                (String), dog(String), 2019-02-04 00:00:00.0(Timestamp), 1(Integer)
+2019-07-17 23:50:23,225 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-17 23:50:46,405 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:50:46,406 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:50:46,412 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 6
+2019-07-17 23:50:46,414 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 6,
+    "title" : "点赞",
+    "content" : "11111",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 3
+  }, {
+    "messageId" : 7,
+    "title" : "雷猴",
+    "content" : "\r\n                878888888888888",
+    "writer" : "11",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 8,
+    "title" : "啊哦",
+    "content" : "哈喽哈喽嘿\r\n                ",
+    "writer" : "dog",
+    "writeDate" : 1549152000000,
+    "count" : 1
+  } ]
+}
+2019-07-17 23:52:01,210 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO message VALUE(0,? ,? ,? ,? ,?) 
+2019-07-17 23:52:01,212 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 咳咳(String), 这日期咋回事儿 2018-1-4(String), time(String), 2018-01-04 00:00:00.0(Timestamp), 0(Integer)
+2019-07-17 23:52:01,214 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2019-07-17 23:52:01,223 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message 
+2019-07-17 23:52:01,224 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-17 23:52:01,231 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2019-07-17 23:52:01,234 DEBUG (MessageController.java:29)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : [ {
+    "messageId" : 1,
+    "title" : "价格最低的MP4",
+    "content" : "价格最低的MP4是什么牌子？价格是多少？",
+    "writer" : "zzg",
+    "writeDate" : 1563321600000,
+    "count" : 1
+  }, {
+    "messageId" : 2,
+    "title" : "品红服务宗旨",
+    "content" : "品红服务宗旨是：为用户服务",
+    "writer" : "bobo",
+    "writeDate" : 1562889600000,
+    "count" : 0
+  }, {
+    "messageId" : 5,
+    "title" : "goodbye",
+    "content" : "world",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 6,
+    "title" : "点赞",
+    "content" : "11111",
+    "writer" : "jry",
+    "writeDate" : 1563235200000,
+    "count" : 3
+  }, {
+    "messageId" : 7,
+    "title" : "雷猴",
+    "content" : "\r\n                878888888888888",
+    "writer" : "11",
+    "writeDate" : 1563235200000,
+    "count" : 2
+  }, {
+    "messageId" : 8,
+    "title" : "啊哦",
+    "content" : "哈喽哈喽嘿\r\n                ",
+    "writer" : "dog",
+    "writeDate" : 1549152000000,
+    "count" : 1
+  }, {
+    "messageId" : 9,
+    "title" : "咳咳",
+    "content" : "这日期咋回事儿 2018-1-4",
+    "writer" : "time",
+    "writeDate" : 1514937600000,
+    "count" : 0
+  } ]
+}

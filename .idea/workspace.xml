@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63f11f9d-b84c-42c2-af3a-24a313427e07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-16.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-17.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-18.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-19.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-20.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-21.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.2019-07-23.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/demo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/CompanyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/config/PageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/CollectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/MapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/utils/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/CookieUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/Pager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/RevertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/MessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/NewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/RevertMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/model/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Revert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/RevertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/RevertServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/RevertMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/addMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/updMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/updUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/loginstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/base.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/chs.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/jquery-1.12.4.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/jquery.form.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/moment.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/normal.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/numeral.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/base.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/chs.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_10_r1_c81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_11_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_11_r1_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_11_r1_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_11_r1_c30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_12_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_13_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_13_r1_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_13_r6_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_5_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r11_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r13_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r13_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r7_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/d_r7_c14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/f1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/f2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/f3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/jquery-1.12.4.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/jquery.form.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/moment.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/normal.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/numeral.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/ckeditor.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/config.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/default.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/回复留言_files/zh-cn.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/ckeditor.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/config.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/default.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/新留言_files/zh-cn.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/style_messageBord.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/QQonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/an5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/anime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/botton-cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/botton-tj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r10_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r2_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r3_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r4_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg1_r6_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg3_r3_c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg5_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cg5_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/ch_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/ch_r3_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/cxan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_10_r1_c81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_11_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_11_r1_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_11_r1_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_11_r1_c30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_12_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_12_r3_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_13_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_13_r1_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_13_r6_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_5_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_5_r3_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_5_r4_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_5_r5_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r11_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r13_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r13_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r1_c1_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r3_c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r7_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/d_r7_c14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/dian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/f1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/f2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/f3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/iboy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/icon_arrow_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/igirl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/js2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/kefu_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/kefu_middle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/kodinger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/ln_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n07_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n07_r1_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/n10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/no_photo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/qq.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sj1_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sj1_r1_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/sj1_r1_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tg-9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/tiao1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/top_red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/对2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/111111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ScreenLockBut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bom_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bottom_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/box_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_add_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_checked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_config.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_config_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_count.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_count_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_del_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_export_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_nochecked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_nochecked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_recycle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_recycle_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_res.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_res_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_save2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_save2_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/btn_search_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/columns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ext_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ext_btn_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/here.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/1_131023153541_1_08dd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/1a8efa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/footer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/login-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/logoBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/pwd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/pwd.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/topBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/topleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/username.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login/verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/res_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/scroll_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/shugang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_h3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_h3_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_li.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_li_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_li_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/side_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sub_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/tab1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/tab2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/titleBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/user.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/userBG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/user_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/colResizable-1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common/normal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/numeral/chs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/numeral/numeral.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/MessageMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/NewsMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/RevertMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/CompanyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/config/PageConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/exception/BizException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/exception/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/service/impl/BaseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil$JsonDateDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil$JsonDateTimestampDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil$JsonSqlDateDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil$JsonTimeDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/JsonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/MapUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/NumberUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/utils/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/web/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/web/CookieUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/web/IpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/common/web/SpringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/controller/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/controller/MessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/controller/RevertController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/MessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/NewsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/NewsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/RevertMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/RevertMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/model/Chat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/model/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/model/News.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/model/Revert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/model/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/RevertService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/UsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/imp/MessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/imp/RevertServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zryx/company/service/imp/UsersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/addMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/updMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/updUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/loginstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/base.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/chs.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/jquery-1.12.4.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/jquery.form.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/moment.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/normal.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat UI_files/numeral.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/base.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/chs.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_10_r1_c81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_11_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_11_r1_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_11_r1_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_11_r1_c30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_12_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_13_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_13_r1_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_13_r6_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_5_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r11_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r13_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r13_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r7_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/d_r7_c14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/f1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/f2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/f3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/jquery-1.12.4.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/jquery.form.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/moment.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/normal.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/numeral.min.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/品红公司_files/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/ckeditor.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/config.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/default.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/回复留言_files/zh-cn.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/ckeditor.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/config.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/default.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/saved_resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/新留言_files/zh-cn.js.下载" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/T_bottombg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/T_bottomleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/T_bottomright.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/T_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/T_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/Tt_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/bookbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/style_messageBord.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/titlemu_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/titlemu_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/titlemu_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/home/留言板_files/welcome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/QQonline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/an5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/anime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/botton-cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/botton-tj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r10_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r2_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r3_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r4_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg1_r6_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg3_r3_c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg5_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cg5_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/ch_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/ch_r3_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/cxan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_10_r1_c81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_11_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_11_r1_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_11_r1_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_11_r1_c30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_12_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_12_r3_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_13_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_13_r1_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_13_r6_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_5_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_5_r3_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_5_r4_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_5_r5_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r11_c15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r13_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r13_c21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r1_c1_z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r3_c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r7_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/d_r7_c14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/dian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/f1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/f2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/f3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/iboy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/icon_arrow_r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/igirl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/js2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/kefu_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/kefu_middle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/kodinger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/ln_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n07_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n07_r1_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/n10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/no_photo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/qq.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/sj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/sj1_r1_c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/sj1_r1_c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/sj1_r1_c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tg-9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tiao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/tiao1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/top_red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/image/对2.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/111111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/Logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/ScreenLockBut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/bom_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/bottom_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/box_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_add_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_checked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_config.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_config_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_count.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_count_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_del_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_export_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_nochecked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_nochecked_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_recycle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_recycle_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_res.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_res_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_save2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_save2_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/btn_search_hover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/columns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/ext_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/ext_btn_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/here.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/1_131023153541_1_08dd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/1a8efa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/footer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/login-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/logoBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/pwd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/pwd.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/topBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/topleft.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/username.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/login/verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/res_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/scroll_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/shugang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_h3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_h3_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_li.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_li_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_li_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/side_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/sub_btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/tab1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/tab2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/titleBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/user.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/userBG.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/images/user_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/colResizable-1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/common/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/common/normal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/numeral/chs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/numeral/numeral.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zryx/company/mapper/MessageMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zryx/company/mapper/NewsMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zryx/company/mapper/RevertMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zryx/company/mapper/UserMapperTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-923179775">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="21" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-766146593">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="4" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="4" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="7" />
+          <entry key="css" value="13" />
+          <entry key="html" value="90" />
+          <entry key="java" value="143" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="23" />
+          <entry key="properties" value="5" />
+          <entry key="rnc" value="1" />
+          <entry key="ts" value="3" />
+          <entry key="xml" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="7" />
+          <entry key="CSS" value="13" />
+          <entry key="HTML" value="90" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="143" />
+          <entry key="JavaScript" value="23" />
+          <entry key="Properties" value="5" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="3" />
+          <entry key="XML" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="119" />
+          <entry key="dummy" value="2" />
+          <entry key="html" value="6265" />
+          <entry key="java" value="7574" />
+          <entry key="properties" value="19" />
+          <entry key="xml" value="618" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="119" />
+          <entry key="HTML" value="6265" />
+          <entry key="JAVA" value="7574" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="19" />
+          <entry key="SQL" value="65" />
+          <entry key="XML" value="553" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/UsersServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-779">
+              <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/MessageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/controller/MessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/common/config/PageConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/MessageMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/MessageMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="myBatisTemplet" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#</find>
+      <find>hidden</find>
+      <find>updid</find>
+      <find>sign in</find>
+      <find>login</find>
+      <find>let</find>
+      <find>忘记密码</find>
+      <find>forgot</find>
+      <find>revert</find>
+      <find>addRevert</find>
+      <find>form</find>
+      <find>新留言</find>
+      <find>add</find>
+      <find>top</find>
+      <find>userList</find>
+      <find>msgList</find>
+      <find>me</find>
+      <find>details</find>
+      <find>data</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/RevertMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/RevertService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/RevertServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/addUser.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/main.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/Revert.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Revert.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/updUser.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/RevertController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/RevertMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/RevertMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/auth.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/massageBoard.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/updMessage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/回复留言.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/addMessage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/新留言.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/品红公司.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Chat.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/users.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/loginAdmin.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/ChatController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/UsersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/UsersMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/留言板_files/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/留言板.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/UsersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/logTest.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/top.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/home/chat.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/MessageMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/MessageMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/Pager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/common/config/PageConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/admin/message.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/java_tools/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="company" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="company" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="35" />
+    <option name="width" value="1280" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zryx" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company" type="b2602c69:ProjectViewProjectNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/IdeaProjects/company/src/main/resources/static/home/新留言.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563901694985" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/gakataka/Student/recv/company" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.38742137" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static\home" />
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zryx.company.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zryx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static\home\留言板_files" />
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static\css" />
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static" />
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\resources\static\admin" />
+      <recent name="C:\Users\Administrator\IdeaProjects\company\src\main\java\com\zryx\company\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CompanyApplication">
+    <configuration name="MessageMapperTest.updateMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zryx.company.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zryx.company.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zryx.company.mapper.MessageMapperTest" />
+      <option name="METHOD_NAME" value="updateMessageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertMapperTest.addRevert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zryx.company.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zryx.company.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zryx.company.mapper.RevertMapperTest" />
+      <option name="METHOD_NAME" value="addRevert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertMapperTest.getRevertByMesId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zryx.company.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zryx.company.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zryx.company.mapper.RevertMapperTest" />
+      <option name="METHOD_NAME" value="getRevertByMesId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.findUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zryx.company.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zryx.company.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.zryx.company.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="auth.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="auth.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js/common">
+      <method v="2" />
+    </configuration>
+    <configuration name="CompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zryx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zryx.CompanyApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.auth.js" />
+      <item itemvalue="JUnit.MessageMapperTest.updateMessageTest" />
+      <item itemvalue="Spring Boot.CompanyApplication" />
+      <item itemvalue="JUnit.RevertMapperTest.getRevertByMesId" />
+      <item itemvalue="JUnit.RevertMapperTest.addRevert" />
+      <item itemvalue="JUnit.UserMapperTest.findUser" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CompanyApplication" />
+        <item itemvalue="JUnit.UserMapperTest.findUser" />
+        <item itemvalue="JUnit.RevertMapperTest.addRevert" />
+        <item itemvalue="JUnit.RevertMapperTest.getRevertByMesId" />
+        <item itemvalue="JUnit.MessageMapperTest.updateMessageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\123\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63f11f9d-b84c-42c2-af3a-24a313427e07" name="Default Changelist" comment="" />
+      <created>1563237857001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563237857001</updated>
+      <workItem from="1563237869018" duration="1828000" />
+      <workItem from="1563241325437" duration="5802000" />
+      <workItem from="1563248883350" duration="692000" />
+      <workItem from="1563256922553" duration="7198000" />
+      <workItem from="1563285135053" duration="5292000" />
+      <workItem from="1563323389165" duration="4802000" />
+      <workItem from="1563343310406" duration="4168000" />
+      <workItem from="1563351045790" duration="2505000" />
+      <workItem from="1563358319414" duration="1929000" />
+      <workItem from="1563371006850" duration="11524000" />
+      <workItem from="1563409636230" duration="9878000" />
+      <workItem from="1563429724910" duration="4630000" />
+      <workItem from="1563437672860" duration="262000" />
+      <workItem from="1563438006987" duration="848000" />
+      <workItem from="1563438919878" duration="1643000" />
+      <workItem from="1563443427588" duration="2740000" />
+      <workItem from="1563450009683" duration="191000" />
+      <workItem from="1563457498927" duration="6803000" />
+      <workItem from="1563496117151" duration="8029000" />
+      <workItem from="1563516247503" duration="7132000" />
+      <workItem from="1563530645278" duration="1837000" />
+      <workItem from="1563543920732" duration="5587000" />
+      <workItem from="1563582379837" duration="10295000" />
+      <workItem from="1563602497434" duration="10112000" />
+      <workItem from="1563615978749" duration="1043000" />
+      <workItem from="1563630279167" duration="9655000" />
+      <workItem from="1563669149030" duration="586000" />
+      <workItem from="1563713743172" duration="695000" />
+      <workItem from="1563714506978" duration="13388000" />
+      <workItem from="1563755018077" duration="8702000" />
+      <workItem from="1563770948291" duration="2452000" />
+      <workItem from="1563775244837" duration="9768000" />
+      <workItem from="1563791131657" duration="467000" />
+      <workItem from="1563803255164" duration="10153000" />
+      <workItem from="1563841913062" duration="6798000" />
+      <workItem from="1563852599274" duration="1945000" />
+      <workItem from="1563856742296" duration="3460000" />
+      <workItem from="1563868000889" duration="6070000" />
+      <workItem from="1563875435681" duration="2173000" />
+      <workItem from="1563889662178" duration="11710000" />
+      <workItem from="1563928105101" duration="1357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RevertMapperTest_addRevert - 2019.07.19 at 22h 44m 30s.xml">
+      <configuration name="RevertMapperTest.addRevert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevertMapperTest_addRevert - 2019.07.20 at 21h 56m 31s.xml">
+      <configuration name="RevertMapperTest.addRevert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevertMapperTest_addRevert - 2019.07.20 at 21h 58m 23s.xml">
+      <configuration name="RevertMapperTest.addRevert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RevertMapperTest_addRevert - 2019.07.20 at 22h 12m 26s.xml">
+      <configuration name="RevertMapperTest.addRevert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 14h 54m 14s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 14h 58m 16s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 15h 00m 50s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 15h 01m 55s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 15h 02m 27s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserMapperTest_findUser - 2019.07.22 at 15h 03m 18s.xml">
+      <configuration name="UserMapperTest.findUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="206149000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" x="167" y="98" width="359" height="563" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.19517103" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5007072" side_tool="true" weight="0.27967808" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.13489737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.10866373" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11143695" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49899396" weight="0.0" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501006" side_tool="true" weight="0.19546743" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5483871" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3293092" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32997987" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" weight="0.0" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="167" y="98" width="359" height="563" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.27162978" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5007072" side_tool="true" weight="0.27967808" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.13489737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.37683284" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11143695" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49899396" weight="0.0" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501006" side_tool="true" weight="0.19546743" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.08797654" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49966466" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3293092" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32997987" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" weight="0.0" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/chat UI_files/chat.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/updUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/NewsMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/MessageMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zryx/company/mapper/RevertMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/品红公司.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="170" column="33" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/loginAdmin.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/news.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap-theme.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/css/all.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/all.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/CompanyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/NewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4830">
+          <caret line="9393" column="4" selection-start-line="9393" selection-start-column="4" selection-end-line="9393" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/logTest.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/品红公司_files/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="108" column="38" lean-forward="true" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/controller/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1743">
+          <caret line="83" column="42" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/留言板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3486">
+          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/home/回复留言.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6216">
+          <caret line="296" column="29" selection-start-line="296" selection-start-column="29" selection-end-line="296" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/model/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/common/web/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/common/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/common/config/PageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/mapper/MessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zryx/company/mapper/MessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zryx/company/service/imp/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38742137" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38742137" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.17040952" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

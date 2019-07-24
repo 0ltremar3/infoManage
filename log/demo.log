@@ -1,0 +1,819 @@
+2019-07-24 00:24:48,572 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 10684 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-24 00:24:48,579 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-24 00:24:48,580 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-24 00:24:52,358 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 4.591 seconds (JVM running for 6.158)
+2019-07-24 00:32:54,599 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:32:54,636 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:32:54,670 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:32:54,674 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:32:54,674 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:32:54,678 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:32:54,783 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:40:20,220 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:40:20,222 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:40:20,228 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:40:20,229 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:40:20,230 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:40:20,231 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:40:20,233 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:41:30,366 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:41:30,367 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:41:30,370 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:41:30,372 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:41:30,373 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:41:30,374 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:41:30,375 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:42:04,535 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:42:04,536 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:42:04,542 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:42:04,543 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:42:04,546 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:42:04,547 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:42:04,550 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:42:20,786 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:42:20,787 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:42:20,790 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:42:20,791 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:42:20,792 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:42:20,794 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:42:20,795 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:43:25,930 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:43:25,931 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:43:25,934 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:43:25,935 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:43:25,936 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:43:25,937 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:43:25,939 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:43:33,457 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:43:33,458 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:43:33,461 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:43:33,462 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:43:33,463 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:43:33,464 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:43:33,467 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:45:33,041 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:45:33,043 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:45:33,045 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:45:33,047 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:45:33,048 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:45:33,051 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:45:33,054 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:54:01,840 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:54:01,843 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:54:01,846 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:54:01,847 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:54:01,848 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:54:01,852 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:54:01,855 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:54:58,134 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:54:58,135 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:54:58,138 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:54:58,139 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:54:58,140 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:54:58,141 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:54:58,144 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:56:30,441 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:56:30,442 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:56:30,445 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:56:30,446 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:56:30,447 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:56:30,448 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:56:30,449 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 00:56:57,658 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 00:56:57,659 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 00:56:57,661 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 00:56:57,662 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 00:56:57,663 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 00:56:57,664 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 00:56:57,666 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 01:01:02,890 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 01:01:02,891 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 01:01:02,894 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 01:01:02,895 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 01:01:02,896 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 01:01:02,898 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 01:01:02,899 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 01:07:30,517 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 01:07:30,519 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 01:07:30,522 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 01:07:30,523 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 01:07:30,524 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 01:07:30,525 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 01:07:30,526 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 01:07:41,935 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 01:07:41,936 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 5(Integer)
+2019-07-24 01:07:41,938 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2019-07-24 01:07:41,940 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 01:07:41,940 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 01:07:41,942 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 01:07:41,943 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 1,
+    "pageData" : [ {
+      "messageId" : 1,
+      "title" : "价格最低的MP4",
+      "content" : "价格最低的MP4是什么牌子？价格是多少？",
+      "writer" : "zzg",
+      "writeDate" : 1563350029000,
+      "count" : 4
+    }, {
+      "messageId" : 2,
+      "title" : "品红服务宗旨",
+      "content" : "品红服务宗旨是：为用户服务",
+      "writer" : "bobo",
+      "writeDate" : 1562900565000,
+      "count" : 1
+    }, {
+      "messageId" : 5,
+      "title" : "goodbye",
+      "content" : "world",
+      "writer" : "oltremare",
+      "writeDate" : 1563496917000,
+      "count" : 4
+    }, {
+      "messageId" : 12,
+      "title" : "俺不知道",
+      "content" : "无语 可以^-^ ",
+      "writer" : "(●￣(ｴ)￣●)",
+      "writeDate" : 1563331381000,
+      "count" : 2
+    }, {
+      "messageId" : 16,
+      "title" : "二维",
+      "content" : "\r\n             恩恩存储   ",
+      "writer" : "他他他他",
+      "writeDate" : 1561943564000,
+      "count" : 2
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 01:07:45,936 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM message limit ? ,? ; 
+2019-07-24 01:07:45,938 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5(Integer), 5(Integer)
+2019-07-24 01:07:45,940 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-07-24 01:07:45,941 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM message 
+2019-07-24 01:07:45,942 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2019-07-24 01:07:45,943 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-07-24 01:07:45,944 DEBUG (MessageController.java:34)- Json-->{
+  "msg" : "查询成功",
+  "code" : 0,
+  "data" : {
+    "pageSize" : 5,
+    "pageNum" : 2,
+    "pageData" : [ {
+      "messageId" : 17,
+      "title" : "hello",
+      "content" : "我肥来了",
+      "writer" : "jry",
+      "writeDate" : 1563811200000,
+      "count" : 0
+    }, {
+      "messageId" : 18,
+      "title" : "try",
+      "content" : "哈哈哈哈哈哈哈哈哈",
+      "writer" : "okk",
+      "writeDate" : 1563897600000,
+      "count" : 0
+    } ],
+    "pageCount" : 2,
+    "dataCount" : 7
+  }
+}
+2019-07-24 08:29:09,329 INFO (StartupInfoLogger.java:50)- Starting CompanyApplication on AMB0E378IIS4OL4 with PID 4516 (C:\Users\Administrator\IdeaProjects\company\target\classes started by Jerry in C:\Users\Administrator\IdeaProjects\company)
+2019-07-24 08:29:09,334 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-24 08:29:09,335 INFO (SpringApplication.java:646)- No active profile set, falling back to default profiles: default
+2019-07-24 08:29:13,603 INFO (StartupInfoLogger.java:59)- Started CompanyApplication in 5.165 seconds (JVM running for 8.897)
